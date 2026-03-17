@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fouad Abbas | Professional Comprehensive Resume</title>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --accent: #2563eb;
+            --text: #1e293b;
+            --light-bg: #f8fafc;
+            --border: #e2e8f0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f1f5f9; color: var(--text); line-height: 1.7; padding: 40px 10px; }
+
+        .cv-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: var(--primary);
+            color: white;
+            padding: 50px 60px;
+            border-bottom: 8px solid var(--accent);
+        }
+        .header h1 { font-size: 3.5rem; letter-spacing: -1px; margin-bottom: 5px; text-transform: uppercase; }
+        .header p.tagline { font-size: 1.2rem; color: var(--accent); font-weight: 600; text-transform: uppercase; }
+        
+        .contact-info {
+            display: flex;
+            gap: 30px;
+            margin-top: 25px;
+            font-size: 1rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .content { padding: 50px 60px; }
+        
+        .section-title {
+            font-size: 1.6rem;
+            color: var(--primary);
+            border-left: 6px solid var(--accent);
+            padding-left: 15px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+
+        .experience-block { margin-bottom: 40px; }
+        .role-title { font-size: 1.3rem; font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; flex-wrap: wrap; }
+        .company-name { font-size: 1.1rem; color: var(--accent); font-weight: 600; margin-bottom: 12px; display: block; }
+        
+        ul.work-list { list-style: none; }
+        ul.work-list li { position: relative; padding-left: 25px; margin-bottom: 10px; font-size: 1.05rem; }
+        ul.work-list li::before { content: "➤"; position: absolute; left: 0; color: var(--accent); font-size: 0.9rem; }
+
+        .skills-matrix {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            border: 1px solid var(--border);
+        }
+        .skill-cat h4 { color: var(--primary); border-bottom: 2px solid var(--border); margin-bottom: 15px; padding-bottom: 5px; }
+        .skill-items { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill-tag { background: white; border: 1px solid var(--border); padding: 5px 12px; border-radius: 4px; font-size: 0.9rem; font-weight: 600; }
+
+        .lang-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-bottom: 40px; }
+        .lang-card { background: #fff; border: 1px solid var(--border); padding: 15px; border-radius: 8px; text-align: center; }
+
+        .edu-box { background: #fff; border: 1px solid var(--border); padding: 25px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+    <header class="header">
+        <h1>FOUAD ABBAS</h1>
+        <p class="tagline">Operations Executive & Technical Infrastructure Specialist</p>
+        <div class="contact-info">
+            <span>📍 Cairo, Egypt</span>
+            <span>📞 +20 1010169726</span>
+            <span>✉️ foshbeso@gmail.com</span>
+            <span>📅 Born: Nov 10, 1991</span>
+        </div>
+    </header>
+
+    <div class="content">
+        <section style="margin-bottom: 50px;">
+            <h2 class="section-title">Professional Profile</h2>
+            <p style="font-size: 1.1rem;">A highly versatile professional with a 15-year career spanning Technical Database Administration (Oracle DBA), Hospitality Operations, and Industrial Logistics. Multilingual communicator with a proven track record in delivering elite service standards in international luxury resort environments.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Languages</h2>
+            <div class="lang-grid">
+                <div class="lang-card"><strong>Arabic</strong><br><small>Native Proficiency</small></div>
+                <div class="lang-card"><strong>English</strong><br><small>Intermediate (Daily Communication)</small></div>
+                <div class="lang-card"><strong>Chinese</strong><br><small>Basic Knowledge (Introductory & Numbers)</small></div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Professional Experience</h2>
+
+            <div class="experience-block">
+                <div class="role-title"><span>Hospitality Operations & Guest Experience Executive</span> <span>Oct 2025 — Present</span></div>
+                <span class="company-name">Resort Spa Operations | Sharm El Sheikh</span>
+                <ul class="work-list">
+                    <li>Overseeing administrative logistics in high-end luxury resort facilities.</li>
+                    <li>Utilizing multilingual communication (English & Chinese) to assist international guests.</li>
+                    <li>Managing inventory cycles and operational workflows to meet global standards.</li>
+                </ul>
+            </div>
+
+            <div class="experience-block">
+                <div class="role-title"><span>Audiology Specialist</span> <span>2018 — 2020</span></div>
+                <span class="company-name">Audiology & Hearing Solutions Center</span>
+                <ul class="work-list">
+                    <li>Executed technical protocols for hearing assessments and patient data management.</li>
+                    <li>Managed maintenance and fitting procedures for medical hearing devices.</li>
+                    <li>Delivered professional consultations, translating technical data for patients.</li>
+                </ul>
+            </div>
+
+            <div class="experience-block">
+                <div class="role-title"><span>Marketing Specialist & Market Analyst</span> <span>2016 — 2018</span></div>
+                <span class="company-name">Its Academy</span>
+                <ul class="work-list">
+                    <li>Analyzed consumer behavior and competitor data to drive marketing campaign success.</li>
+                    <li>Produced executive research reports to support business expansion strategies.</li>
+                    <li>Resolved high-level customer service challenges through professional conflict resolution.</li>
+                </ul>
+            </div>
+
+            <div class="experience-block">
+                <div class="role-title"><span>Logistics Administrative Officer</span> <span>2010 — 2012</span></div>
+                <span class="company-name">Nile Natural Gas (Nile Gas)</span>
+                <ul class="work-list">
+                    <li>Managed regulatory documentation and workflows for natural gas logistics.</li>
+                    <li>Analyzed historical shipping data to optimize capacity planning and forecasting.</li>
+                    <li>Ensured total compliance with industrial safety standards and data archiving.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Professional Skills Matrix</h2>
+            <div class="skills-matrix">
+                <div class="skill-cat">
+                    <h4>Technical & IT</h4>
+                    <div class="skill-items">
+                        <span class="skill-tag">Oracle Database Admin (ORCL)</span>
+                        <span class="skill-tag">Computer Networking</span>
+                        <span class="skill-tag">System Maintenance</span>
+                        <span class="skill-tag">Medical Device Tech</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h4>Software Mastery</h4>
+                    <div class="skill-items">
+                        <span class="skill-tag">MS Word & PPT (Expert)</span>
+                        <span class="skill-tag">Advanced MS Excel</span>
+                        <span class="skill-tag">ICDL Certified</span>
+                        <span class="skill-tag">Digital Archiving</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h4>Operations & Logistics</h4>
+                    <div class="skill-items">
+                        <span class="skill-tag">Supply Chain Admin</span>
+                        <span class="skill-tag">Inventory Control</span>
+                        <span class="skill-tag">KPI Reporting</span>
+                        <span class="skill-tag">Regulatory Compliance</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h4>Interpersonal</h4>
+                    <div class="skill-items">
+                        <span class="skill-tag">Guest Relations</span>
+                        <span class="skill-tag">Conflict Management</span>
+                        <span class="skill-tag">Market Research</span>
+                        <span class="skill-tag">Team Leadership</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="edu-box">
+                <div style="margin-bottom: 20px;">
+                    <strong style="font-size: 1.2rem; color: var(--primary);">Radwaniya Technical Industrial Diploma</strong><br>
+                    <span style="color: var(--accent); font-weight: 600;">Technical & Mechanical Professional Program</span><br>
+                    <span>Graduated: 2011 | Cairo, Egypt</span>
+                </div>
+                <hr style="border: 0; border-top: 1px solid var(--border); margin: 15px 0;">
+                <div>
+                    <p><strong>Oracle Certified Associate:</strong> DB Administration & Security (2024)</p>
+                    <p><strong>ICDL Certified:</strong> Full International Computer Literacy Mastery</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>
